@@ -4,8 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>小可爱</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    .head {
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      padding: 20px;
+      color: #fff;
+      height: 160px;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: center;
+      background: #3f51b5;
+    }
+    .main {
+      padding: 20px;
+      flex: 1;
+      color: #353535;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-  <p>小可爱，真可爱！</p>
+  <div class="head">小可爱啊，真可爱</div>
+  <div class="main">明天更美好，加油！</div>
+  <div class="footer"></div>
 </body>
 </html>
